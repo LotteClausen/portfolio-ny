@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/* CSS Document */
+/*------------------------------------------------------- Logo ------------------------------------------*/
+#logo{
+	float: left;
+}
+/*------------------------------------------------------- Logo slut------------------------------------------*/
+
+
+/*------------------------------------------------------- Navigation slut------------------------------------------*/
+
+ 
+#upper-nav {
+    width: 95%;
+    padding-top: 90px;
+    position: absolute;
+    
+}
+ 
+#navi {
+	list-style: none;
+	font-size: 24px;
+	
+}
+ 
+a {
+    color: #806E60;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 20px;
+	float: right;
+}
+ 
+ 
+ /*------------------------------------------------------- Navigation slut------------------------------------------*/
+/*------------------------------------------------------- Forside ------------------------------------------*/
+
+
+
+/*------------------------------------------------------- Forside slut ------------------------------------------*/
+/*------------------------------------------------------- Portfolio ------------------------------------------*/
+
+
+
+/*------------------------------------------------------- Gallery Portfolio ------------------------------------------*/
+/*------------------------------------------------------- photoshop  ------------------------------------------*/
+
+#photoshop {
+	padding: 80px;
+    width: 360px;
+	margin-left: 60px;
+	
+}
+#photoshop :hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#photoshop img {
+    width: 100%;
+	margin-top: 90px;
+			
+}
+
+#tekst_phopshop {
+	padding-top: 250px;
+	width: 400px;
+	margin-left: 100px;
+	display: block;
+}
+
+#billede_photoshop1 {
+	background-image: url(image/bro.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 170px;
+	margin-right: 60px;
+    width: 340px;
+	float: right;
+	margin-top: -350px;
+}
+	
+	
+
+
+#billede_photoshop2 {
+	background-image: url(image/brofærdig.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 170px;
+	margin-right: 60px;
+    width: 340px;
+	height: 100px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+/*------------------------------------------------------- photoshop SLUT  ------------------------------------------*/
+/*------------------------------------------------------- Byg en app ------------------------------------------*/
+#app {
+	padding: 80px;
+    width: 360px;
+	margin-left: 300px;
+		
+}
+#app :hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#app img {
+    width: 200%;
+	margin-top: -240px;
+	
+}
+
+#app_tekst {
+	padding-top: 250px;
+	width: 400px;
+	margin-left: 100px;
+	display: block;
+}
+
+#app_video{
+	padding: 140px;
+    width: 340px;
+	float: left;
+	margin-top: -120px;
+}
+
+
+
+/*------------------------------------------------------- Byg en app SLUT  ------------------------------------------*/
+/*------------------------------------------------------- Sweetbot ------------------------------------------*/
+
+#sweetbot {
+    width: 360px;
+	float: right;
+	padding-right: 230px;
+	
+	
+}
+#sweetbot :hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#sweetbot img {
+    width: 200%;
+	margin-top: -1400px;
+	
+			
+}
+
+#sweetbot_tekst {
+	padding-top: 250px;
+	width: 400px;
+	margin-left: 100px;
+	display: block;
+}
+
+#sweetbot_billede {
+	background-image: url(image/sweetbot.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 170px;
+	margin-right: 60px;
+    width: 340px;
+	float: right;
+	margin-top: -350px;
+}
+	
+	
+
+
+#hotbot_billede {
+	background-image: url(image/hotbot.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 170px;
+	margin-right: 60px;
+    width: 340px;
+	height: 100px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+/*------------------------------------------------------- Sweetbot SLUT ------------------------------------------*/
+
+
+/*------------------------------------------------------- Drømme portfolio  ------------------------------------------*/
+
+#droemmeporfolio {
+    width: 380px;
+	margin-left: 9px;
+	
+	
+	
+}
+#droemmeporfolio :hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#droemmeporfolio img {
+    width: 160%;
+	
+			
+}
+
+#droemme_tekst {
+	    
+	
+}
+#droemme_video {
+    padding: 170px;
+	padding-left: 300px;
+	height: 100px;
+	margin-top: 90px;
+	margin-bottom: 300px;
+     
+    }
+    
+   
+/*------------------------------------------------------- Drømme portfolio SLUT  ------------------------------------------*/
+
+
+/*------------------------------------------------------- Byg din Portfolio  ------------------------------------------*/
+
+#byg_portfolio {
+	padding: 200px;
+    width: 400px;
+	padding-left: 500px;
+	
+		
+}
+#byg_portfolio :hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#byg_portfolio img {
+    width: 120%;
+	margin-top: -200px;
+}
+
+/*------------------------------------------------------- Byg din Portfolio SLUT  ------------------------------------------*/
+
+
+/*------------------------------------------------------- Gallery Portfolio SLUT ------------------------------------*/
+/*------------------------------------------------------- Portfolio SLUT ------------------------------------------*/
+
+
+/*------------------------------------------------------- Om Mig ------------------------------------------*/
+
+#billede_mig {
+	background-image: url(image/mig.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: left;
+	padding: 500px;
+	margin-left: 40px;
+
+	 
+}
+
+#om_mig {
+	padding-top: -300px;
+	margin-right: 350px;
+	
+}
+
+
+/*------------------------------------------------------- Om Mig  Slut ------------------------------------------*/
+/*-------------------------------------------------------Kontakt formular ------------------------------------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #806E60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #D0BAA8;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+/*-------------------------------------------------------Kontakt formular slut ------------------------------------------*/
+
+/*------------------------------------------------------- Footer ------------------------------------------*/
+
+#footer{
+	text-align: center;
+	
+}
+
+/*------------------------------------------------------- Footer slut ------------------------------------------*/
+
+
+
+
+
+
+
