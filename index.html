@@ -13,7 +13,6 @@
 		<div id="upper-nav">
 		<nav id="navi">
 			<li><a href="#kontakt">Kontakt</a></li>
-			<li><a href="#cv">CV</a></li>
 			<li><a href="#om-mig">Om mig</a></li>
 			<li><a href="#portfolio">Portfolio</a></li>
 			
@@ -58,7 +57,7 @@
 
 <div id="billede_mig">
 </div>	
-<div id="om_mig">
+<div id="om_mig_tekst">
 
 	
 <h1>Om mig</h1>
@@ -74,23 +73,58 @@ I min fritid har glæden for design og branding har altid interesseret mig. Bege
 
 </section>
 
+		
+<!-- ----------------------------------------------------- Kompetencer  ----------------------------------------------->
+		
+<div id="Kompetencer_tekst">
+	<h1>Kompetencer</h1>
+</div>
+		
+		
+<div id="kompetencer">
+
+<div class="container_kompetencer">
+  <div class="skills html">HTML</div>
+</div><br>
+
+
+<div class="container_kompetencer">
+  <div class="skills css">CSS</div>
+</div><br>
+
+	
+<div class="container_kompetencer">
+  <div class="skills js">JavaScript</div>
+</div><br>
+
+
+<div class="container_kompetencer">
+  <div class="skills php">Photoshop</div>
+</div>
+</div>	
+
 <!-- -----------------------------------------------------Kontakt formular ------------------------------------------>
 <section id="kontakt">
-		<article>
-			<h1>Har du brug for kontakt?</h1>	
-			<p>skriv gerne til mig, så vender jeg tilbage hurtigst muligt. </p>
-			<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Navn</label>
-    <input type="text" id="fname" name="navn">
 
-    <label for="lname">Email</label>
-    <input type="text" id="lname" name="email">
+	<div id="kontakt_tekst">
+		<h1>Har du brug for kontakt?</h1>	
+		<p>skriv gerne til mig, så vender jeg tilbage hurtigst muligt. </p>
+	</div>
+	
+<article>
+<div class="container_kontakt">
+  	<form action="/action_page.php">
+   		 <label for="fname">Navn</label><br>
+   			 <input type="text" id="fname" name="navn"><br>
+
+   		 <label for="lname">Email</label><br>
+    		<input type="text" id="lname" name="email"><br>
 	  
-	    <label for="subject">Skriv her</label>
-    <textarea id="subject" name="besked" style="height:200px"></textarea>
+	    <label for="subject">Besked</label><br>
+    		<textarea id="subject" name="besked" style="height:200px"></textarea><br>
 
-    <input id="send" type="submit" value="Submit">
+   		 <input id="send" type="submit" value="Submit">
+		
   </form>
 </div>
 </article>

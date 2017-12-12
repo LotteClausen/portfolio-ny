@@ -272,17 +272,60 @@ a {
 	 
 }
 
-#om_mig {
-	padding-top: -300px;
+#om_mig_tekst {
+	margin-top: -650px;
 	margin-right: 350px;
+	padding-left: 400px;
+	margin-bottom: 100px;
 	
 }
 
+/*------------------------------------------------------- kompetencer ------------------------------------------*/
 
-/*------------------------------------------------------- Om Mig  Slut ------------------------------------------*/
+#Kompetencer_tekst {
+	padding-left: 400px;
+}
+
+#kompetencer {box-sizing: border-box}
+
+.container_kompetencer {
+  	width: 40%;
+	border: 1px solid #CDBDB1;
+	padding-left: 400px;
+	border-radius: 4px;
+	
+	
+}
+
+.skills {
+  	text-align: right;
+  	padding-right: 20px;
+  	line-height: 30px;
+  	color: black;
+	border-radius: 2px;
+	
+	
+}
+
+.html {width: 55%; background-color: #CDBDB1;}
+.css {width: 50%; background-color: #CDBDB1;}
+.js {width: 30%; background-color: #CDBDB1;}
+.php {width: 40%; background-color: #CDBDB1;}
+
+/*------------------------------------------------------- kompetencer SLUT ------------------------------------------*/
+/*------------------------------------------------------- Om Mig SLUT ------------------------------------------*/
+
+
 /*-------------------------------------------------------Kontakt formular ------------------------------------------*/
+
+#kontakt_tekst{
+	padding-left: 400px;
+	margin-top: 150px;
+}
+
+
 input[type=text], select, textarea {
-    width: 100%;
+    width: 60%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -290,6 +333,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+	
 }
 
 input[type=submit] {
@@ -305,9 +349,10 @@ input[type=submit]:hover {
     background-color: #D0BAA8;
 }
 
-.container {
-    border-radius: 5px;
-    padding: 20px;
+.container_kontakt {
+    border-radius: 20px;
+    padding-left: 400px;
+	
 }
 /*-------------------------------------------------------Kontakt formular slut ------------------------------------------*/
 
