@@ -44,24 +44,41 @@ a {
 
 
 /*------------------------------------------------------- Gallery Portfolio ------------------------------------------*/
-/*------------------------------------------------------- photoshop  ------------------------------------------*/
 
-#photoshop {
-	padding: 80px;
-    width: 360px;
-	margin-left: 60px;
+#portfolio_gallery {
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	width: 100%;
+	padding-left: 100px;
+}
+	
+.container_gallery {
+	width: 360px;
 	
 }
-#photoshop :hover {
+
+.container_gallery:hover {
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
 
-#photoshop img {
+.container_gallery img {
     width: 100%;
-	margin-top: 90px;
-			
+	height: auto;
+	margin-top: 30px;
 }
+
+/*------------ Teksten under billederne  -------------*/
+
+.tekst_under {
+	text-align: center;
+	color: #806E60;
+}
+
+/*------------------------------------------------------- photoshop  ------------------------------------------*/
+
+
 
 /*------------ på næste side  = efter man har klikket -------------*/
 
@@ -101,22 +118,7 @@ a {
 
 /*------------------------------------------------------- photoshop SLUT  ------------------------------------------*/
 /*------------------------------------------------------- Byg en app ------------------------------------------*/
-#app {
-	padding: 80px;
-    width: 360px;
-	margin-left: 300px;
-		
-}
-#app :hover {
-	opacity: 0.5;
-    filter: alpha(opacity=50);
-}
 
-#app img {
-    width: 200%;
-	margin-top: -240px;
-	
-}
 
 /*------------ på næste side  = efter man har klikket -------------*/
 
@@ -129,24 +131,14 @@ a {
 
 
 #app_mobil {
-	background-image: url(image/appskærm.svg);
+	background-image: url(image/appskærm.jpg);
 	background-size: 90%;
 	background-repeat: no-repeat;
 	padding: 180px;
 	margin-right: 60px;
     width: 240px;
 	float: right;
-	margin-top: -190px;
-	
-}
-
-#app_video{
-	float: right;
-    width: 500px;
-	margin-top: 30px;
-	padding-left: 460px;
-	padding-bottom: 200px;
-	
+	margin-top: -280px;
 	
 }
 
@@ -187,34 +179,14 @@ a {
 	
 }
 
-#redesign_app_video {
-	float: left;
-    padding-left: 100px;
+
 	
-}
 
 
 /*------------------------------------------------------- Byg en app SLUT  ------------------------------------------*/
 /*------------------------------------------------------- Sweetbot ------------------------------------------*/
 
-#sweetbot {
-    width: 360px;
-	float: right;
-	padding-right: 230px;
-	
-	
-}
-#sweetbot :hover {
-	opacity: 0.5;
-    filter: alpha(opacity=50);
-}
 
-#sweetbot img {
-    width: 200%;
-	margin-top: -1400px;
-	
-			
-}
 
 /*------------ på næste side  = efter man har klikket -------------*/
 
@@ -233,11 +205,9 @@ a {
 	margin-right: 60px;
     width: 340px;
 	float: right;
-	margin-top: -350px;
+	margin-top: -500px;
 }
 	
-	
-
 
 #hotbot_billede {
 	background-image: url(image/hotbot.png);
@@ -248,8 +218,8 @@ a {
     width: 340px;
 	height: 100px;
 	float: right;
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-top: -140px;
+	margin-bottom: 200px;
 }
 
 
@@ -262,23 +232,6 @@ a {
 
 /*------------------------------------------------------- Drømme portfolio  ------------------------------------------*/
 
-#droemmeporfolio {
-    width: 380px;
-	margin-left: 9px;
-	
-	
-	
-}
-#droemmeporfolio :hover {
-	opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-
-#droemmeporfolio img {
-    width: 160%;
-	
-			
-}
 
 /*------------ på næste side  = efter man har klikket -------------*/
 
@@ -301,23 +254,24 @@ a {
 
 /*------------------------------------------------------- Byg din Portfolio  ------------------------------------------*/
 
+#byg_portfilio_tekst {
+	padding-top: 250px;
+	width: 400px;
+	margin-left: 100px;
+	display: block;
+}
 
-#byg_portfolio {
-	padding: 200px;
-    width: 374px;
-	padding-left: 500px;
+#byg_portfolio_billlede {
+	background-image: url(image/bygportfoliopics.svg);
+	background-repeat: no-repeat;
+	padding: 290px;
+	margin-right: 90px;
+    width: auto;
+	float: right;
+	margin-top: -410px;
 	
-		
-}
-#byg_portfolio :hover {
-	opacity: 0.6;
-    filter: alpha(opacity=50);
 }
 
-#byg_portfolio img {
-    width: 120%;
-	margin-top: -200px;
-}
 /*------------ på næste side  = efter man har klikket -------------*/
 
 
@@ -395,7 +349,7 @@ a {
 
 #kontakt_tekst{
 	padding-left: 400px;
-	margin-top: 150px;
+	margin-top: 250px;
 }
 
 
@@ -427,17 +381,51 @@ input[type=submit]:hover {
 .container_kontakt {
     border-radius: 20px;
     padding-left: 400px;
+	padding-bottom: 100px;
+	
 	
 }
 /*-------------------------------------------------------Kontakt formular slut ------------------------------------------*/
 
+/*--------------------------------------------------- Bokse tilprofil og kontakt ------------------------------------*/
+.container_box {
+	height: 100px;
+	background-color: aqua;
+}
+
+.container_box:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#box1 {
+	background-color: #D0BAA8;
+}
+
+#box2 {
+	background-color: #806E60;
+}
+
+.box_text {
+	text-align: center;
+	color: white;
+}
+
+/*------------------------------------------ Bokse tilprofil og kontakt SLUT ------------------------------------*/
+
 /*------------------------------------------------------- Footer ------------------------------------------*/
+
 
 #footer{
 	text-align: center;
-	
+	background-color: #;
+	height: 90px;
+		
 }
 
+.ikoner_media {
+	margin-top: 20px;
+}
 /*------------------------------------------------------- Footer slut ------------------------------------------*/
 
 
