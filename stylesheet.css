@@ -63,6 +63,8 @@ a {
 			
 }
 
+/*------------ på næste side  = efter man har klikket -------------*/
+
 #tekst_phopshop {
 	padding-top: 250px;
 	width: 400px;
@@ -116,6 +118,8 @@ a {
 	
 }
 
+/*------------ på næste side  = efter man har klikket -------------*/
+
 #app_tekst {
 	padding-top: 250px;
 	width: 400px;
@@ -123,13 +127,71 @@ a {
 	display: block;
 }
 
-#app_video{
-	padding: 140px;
-    width: 340px;
-	float: left;
-	margin-top: -120px;
+
+#app_mobil {
+	background-image: url(image/appskærm.svg);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-right: 60px;
+    width: 240px;
+	float: right;
+	margin-top: -190px;
+	
 }
 
+#app_video{
+	float: right;
+    width: 500px;
+	margin-top: 30px;
+	padding-left: 460px;
+	padding-bottom: 200px;
+	
+	
+}
+
+
+
+/*--------------- Redesign af app ----------------*/
+
+#app_redesign_teskt {
+	padding-top: 250px;
+	width: 400px;
+	margin-left: 100px;
+	display: block;
+}
+
+#redesign_begge_mobile {
+	background-image: url(image/app_begge.svg);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-right: 60px;
+    width: 240px;
+	float: right;
+	margin-top: -190px;
+	
+
+}
+
+#redesign_app_mobile {
+	background-image: url(image/redesignapp.svg);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	padding: 200px;;
+    width: 220px;
+	float: right;
+	margin-left: 200px;
+	padding-left: 250px;
+	
+	
+}
+
+#redesign_app_video {
+	float: left;
+    padding-left: 100px;
+	
+}
 
 
 /*------------------------------------------------------- Byg en app SLUT  ------------------------------------------*/
@@ -153,6 +215,8 @@ a {
 	
 			
 }
+
+/*------------ på næste side  = efter man har klikket -------------*/
 
 #sweetbot_tekst {
 	padding-top: 250px;
@@ -216,16 +280,18 @@ a {
 			
 }
 
+/*------------ på næste side  = efter man har klikket -------------*/
+
 #droemme_tekst {
-	    
+	padding-top: 250px;
+	text-align: center;
 	
 }
 #droemme_video {
-    padding: 170px;
-	padding-left: 300px;
+    padding-top: 30px;
+	padding-bottom: 500px;
 	height: 100px;
-	margin-top: 90px;
-	margin-bottom: 300px;
+	text-align: center;
      
     }
     
@@ -235,15 +301,16 @@ a {
 
 /*------------------------------------------------------- Byg din Portfolio  ------------------------------------------*/
 
+
 #byg_portfolio {
 	padding: 200px;
-    width: 400px;
+    width: 374px;
 	padding-left: 500px;
 	
 		
 }
 #byg_portfolio :hover {
-	opacity: 0.5;
+	opacity: 0.6;
     filter: alpha(opacity=50);
 }
 
@@ -251,6 +318,9 @@ a {
     width: 120%;
 	margin-top: -200px;
 }
+/*------------ på næste side  = efter man har klikket -------------*/
+
+
 
 /*------------------------------------------------------- Byg din Portfolio SLUT  ------------------------------------------*/
 
@@ -286,14 +356,16 @@ a {
 	padding-left: 400px;
 }
 
-#kompetencer {box-sizing: border-box}
+#kompetencer {
+	box-sizing: border-box;
+	padding-left: 400px;	
+}
 
 .container_kompetencer {
-  	width: 40%;
+  	width: 60%;
 	border: 1px solid #CDBDB1;
-	padding-left: 400px;
 	border-radius: 4px;
-	
+	box-shadow: 2px 2px 5px #888;
 	
 }
 
@@ -303,6 +375,9 @@ a {
   	line-height: 30px;
   	color: black;
 	border-radius: 2px;
+	box-shadow: 1px 1px 1px #888;
+	
+	
 	
 	
 }
