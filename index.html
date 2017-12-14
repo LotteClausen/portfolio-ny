@@ -4,27 +4,70 @@
 <meta charset="UTF-8">
 <title>Portfolio</title>
 <link rel="stylesheet" href="stylesheet.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="jquery.scrollTo.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">	
+	
+	
+	<script type="text/javascript">
+	
+$(document).ready(function () {
+
+var elem   = $('#upper-nav');  
+    
+var bottom = $(elem).position().top+$(elem).outerHeight(true)
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > bottom) {
+            $('#scrollup').fadeIn();
+        } else {
+            $('#scrollup').fadeOut();
+        }
+    });
+
+    $('#scrollup').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 500);
+        return false;
+    });
+	
+	
+$("#navi a").click(function(e){
+			e.preventDefault();
+			$(window).scrollTo(this.hash,1000);
+			
+		});
+
+});
+</script>
 </head>
 	
+	
 <body>
-	<header id="logo">
-	<a href="index.html"><img src="image/logo.png" style="height: 150px;"</a> 
+	
+
+<!-- ----------------------------------------------------- Menuen - navigation  ------------------------------------>	
+	
+
+<div id="logo">
+	
+</div>
+	
+	<header>
 	
 		<div id="upper-nav">
 		<nav id="navi">
-			<li><a href="kontakt.html">Kontakt</a></li>
-			<li><a href="profil.html">Profil</a></li>
-			<li><a href="#portfolio" class="valgt">Portfolio</a></li>
-			
-			
+			<li><a href="#kontakt">Kontakt</a></li>
+			<li><a href="#profil">Profil</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
 		</nav>
 		</div>
 </header>
 			
 		
 
-
 <!-- ----------------------------------------------------- Portfolio ---------------------------------------------->
+
 <section id="portfolio">
 					
 <div id="portfolio_gallery">
@@ -63,28 +106,94 @@
 	</div>	
 </section>
 			
-<!-- ---------------------------------- bokse til profil og kontakt  ---------------------------------------->
-		
-<div id="Boxs">
+<!-- ----------------------------------------------------- Profil ------------------------------------------>		
+<section id="profil">
+
 	
-<div class="container_box" id="box1">
-	<a href="profil.html"><h2 class="box_text">Profil</h2></a>
+<div id="billede_mig">
+</div>	
+<div class="overskifter" id="overskrift_profil"><h1>Multimediedesigner</h1></div>		
 	
-		
-</div>		
-		
-<div class="container_box" id="box2">
-	<a href="læringsproces.html"><h2 class="box_text">Læringsproces</h2></a>
- 
+<div id="om_mig_tekst">
+
+
+<p>Mit navn er Lotte Clausen, jeg er født og opvokset i Bagsværd. Jeg er 21 år gammel og bor i Gentofte. Jeg studerer dagligt til multimediedesigner på Copenhagen Business Academy i Lyngby. <br><br>
+
+Ved siden af skolen, har jeg et deltidsjob på Buddinge apotek, hvor jeg har været ansat i 6 år. 
+På apoteket bliver jeg kreativt udfordret, da min opgave bl.a. er at lave skilte og stå for udstillinger til de forskellige kampagner vi har kørende. Det stiller et stort krav til, at jeg hele tiden skal tænke i nye baner for at finde frem til attraktive designs. <br><br>
+
+I min fritid har glæden for design og branding har altid interesseret mig. Begejstringen for at lave designs og være kreativ, samt finde på nye innovative ideer. Mit fremtidige mål er, at jeg vil gøre min fritidsinteresser til min karriere.
+</p>
 </div>
+
+</section>
+
+<!-- ----------------------------------------------------- Kompetencer  ----------------------------------------------->		
+		
+<!--------Taget det fra hjemmesiden https://www.w3schools.com/howto/howto_css_skill_bar.asp ----------->	
+
+<div class="overskifter" id="overskrift_kompetencer"><h2>Mine kompetencer</h2></div>			
+		
+<div id="Kompetencer_tekst"></div>
+		
+		
+<div id="kompetencer">
+
+<div class="container_kompetencer">
+  <div class="skills html">HTML</div>
+</div><br>
+
+
+<div class="container_kompetencer">
+  <div class="skills css">CSS</div>
+</div><br>
+
 	
-	<div class="container_box" id="box3">
-	<a href="kontakt.html"><h2 class="box_text">Kontakt</h2></a>
- 
+<div class="container_kompetencer">
+  <div class="skills design">Design</div>
+</div><br>
+	
+<div class="container_kompetencer">
+  <div class="skills illu">Illustrator</div>
+</div><br>
+
+<div class="container_kompetencer">
+  <div class="skills php">Photoshop</div>
 </div>
+</div>	
 	
+
+	
+<!-- ----------------------------------------------------- Kontakt ------------------------------------------>		
+		
+		
+<!---------- taget fra hjemmesiden https://www.w3schools.com/howto/howto_css_contact_form.asp ---------->	
+		
+<section id="kontakt">
+
+	<div id="kontakt_tekst">
+		<h1 id="overskrift_kontakt">Har du brug for kontakt?</h1>	
+		<p>Skriv gerne til mig, så vender jeg tilbage hurtigst muligt. </p>
+	</div>
+	
+<article>
+<div class="container_kontakt">
+  	<form action="/action_page.php">
+   		 <label for="fname">Navn</label><br>
+   			 <input type="text" id="fname" name="navn"><br>
+
+   		 <label for="lname">Email</label><br>
+    		<input type="text" id="lname" name="email"><br>
+	  
+	    <label for="subject">Besked</label><br>
+    		<textarea id="subject" name="besked" style="height:200px"></textarea><br>
+
+   		 <input id="send" type="submit" value="Submit">
+		
+  </form>
 </div>
-	
+</article>
+</section>
 <!-- -----------------------------------------------------Footer------------------------------------------>
 
 <footer id="footer">

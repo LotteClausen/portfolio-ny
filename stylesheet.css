@@ -2,6 +2,15 @@
 /* CSS Document */
 
 /*------------------------------------------- Elementer som skal gøre det samme  -------------------------------------*/
+h1, h2, h3, a, p {
+	font-family: "lvca-icomoon";
+	line-height: 1.3;
+		
+}
+
+p {
+	font-size: 16px;
+}
 
 .overskifter {
 	color: #806E60;
@@ -11,6 +20,7 @@
 	text-decoration: underline;
 	color: #D0BAA8;
 }
+
 /*------------------------------------------------------- Logo ------------------------------------------*/
 #logo{
 	float: left;
@@ -18,23 +28,29 @@
 /*------------------------------------------------------- Logo slut------------------------------------------*/
 
 
-/*------------------------------------------------------- Navigation slut------------------------------------------*/
+/*------------------------------------------------------- Navigation ------------------------------------------*/
 
  
 #upper-nav {
-    width: 98%;
-    padding-top: 90px;
-    position: absolute;
-	border-bottom: 2px solid #806E60;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 	
-    
+	
+	
+	   
 }
  
 #navi {
 	list-style: none;
 	font-size: 24px;
+	padding-right: 100px;
+	margin-top: 35px;
 	
 	
+		
 }
  
 a {
@@ -42,14 +58,18 @@ a {
     list-style: none;
     text-decoration: none;
     margin-left: 25px;
-    margin-right: 20px;
+    margin-right: 10px;
 	float: right;
-	margin-bottom: 20px;
+	padding-right: 20px;
+	
+	
+	
 }
  
  
  /*------------------------------------------------------- Navigation slut------------------------------------------*/
 /*------------------------------------------------------- Forside ------------------------------------------*/
+
 
 
 
@@ -66,11 +86,13 @@ a {
 	height: auto;
 	width: 100%;
 	padding-left: 100px;
+
 	
 }
 	
 .container_gallery {
-	width: 360px;
+	width: 360px;	
+
 	
 }
 
@@ -84,7 +106,13 @@ a {
     width: 100%;
 	height: auto;
 	margin-top: 30px;
+	
+	
 }
+
+
+	
+
 
 /*------------ Teksten under billederne  -------------*/
 
@@ -114,7 +142,7 @@ a {
 	margin-left: 60px;
     width: 340px;
 	float: left;
-	margin-top: 130px;
+	margin-top: 277px;
 }
 	
 
@@ -148,6 +176,7 @@ a {
 
 #app_tekst a{
 	float: none;
+	
 }
 
 
@@ -161,6 +190,7 @@ a {
 	float: left;
 	margin-top: 120px;
 	margin-bottom: 200px;
+	margin-top: 277px;
 	
 }
 
@@ -174,6 +204,11 @@ a {
 	margin-right: 200px;
 	display: block;
 	float: right;
+}
+
+#app_redesign_teskt a {
+	float: none;
+	
 }
 
 #redesign_begge_mobile {
@@ -219,6 +254,11 @@ a {
 	float: right;
 	margin-right: 100px;
 	display: block;
+	
+}
+
+#sweetbot_tekst a {
+	float: none;
 	
 }
 
@@ -279,12 +319,17 @@ a {
 
 /*------------------------------------------------------- Byg din Portfolio  ------------------------------------------*/
 
-#byg_portfilio_tekst {
+#byg_portfolio_tekst {
 	padding-top: 250px;
 	width: 400px;
 	float: right;
 	margin-right: 150px;
 	display: block;
+}
+
+#byg_portfolio_tekst a {
+	float: none;
+	
 }
 
 #byg_portfolio_billlede {
@@ -312,35 +357,38 @@ a {
 /*-------------------------------------------------------  Profil  ------------------------------------------*/
 
 #billede_mig {
-	background-image: url(image/mig.jpg);
+	background-image: url(../portfolio/image/profilmig.jpg);
 	background-repeat: no-repeat;
-	background-size: 250px;
-	background-position: left;
-	padding: 500px;
+	background-size: 350px;
+	background-position: center;
+	padding-bottom: 600px;
 	
-
 	 
 }
 
-.overskift_profil {
+#overskrift_profil {
 	text-align: center;
-	color: #806E60;
+	margin-top: -100px;
 }
-
 
 #om_mig_tekst {
-	margin-top: -750px;
-	margin-right: 350px;
-	padding-left: 400px;
-	margin-bottom: 100px;
+	margin-left: 29%;
+	margin-right: 29%;
+	text-align: left;
+	
 	
 	
 }
-
 /*------------------------------------------------------- kompetencer ------------------------------------------*/
 
 /*--------Taget det fra hjemmesiden https://www.w3schools.com/howto/howto_css_skill_bar.asp -----------*/
 
+
+#overskrift_kompetencer {
+	text-align: center;
+	margin-bottom: 40px;
+
+}
 
 
 #kompetencer {
@@ -376,62 +424,6 @@ a {
 /*------------------------------------------------------- kompetencer SLUT ------------------------------------------*/
 /*------------------------------------------------------- Om Mig SLUT ------------------------------------------*/
 
-
-/*--------------------------------------------------- Bokse tilprofil og kontakt ------------------------------------*/
-
-
-#boxs {
-	
-}
-
-.container_box {
-	height: 60px;
-	
-
-}
-
-.container_box a {
-	float: none;
-}
-
-#box1 {
-	background-color: #D0BAA8;
-	margin-top: 200px;
-	
-}
-
-#box1:hover {
-	opacity: 0.5;
-}
-
-#box2 {
-	background-color: #988678;
-		
-}
-
-#box2:hover {
-	opacity: 0.5;
-}
-
-#box3 {
-	background-color: #806E60;
-	
-	
-}
-
-#box3:hover {
-	opacity: 0.5;
-}
-
-.box_text {
-	color: white;
-	text-align: center;
-	
-	
-	 
-}
-
-/*------------------------------------------ Bokse tilprofil og kontakt SLUT ------------------------------------*/
 
 
 /*-------------------------------------------------------Kontakt formular ------------------------------------------*/
