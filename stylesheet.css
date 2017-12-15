@@ -83,6 +83,7 @@ a {
 	flex-wrap: wrap;
 	padding-left: 150px;
 	padding-top: 150px;
+	
 		
 }
 	
@@ -349,6 +350,11 @@ a {
 
 
 /*-------------------------------------------------------  Profil  ------------------------------------------*/
+#profil {
+	border-top: 1px solid #806E60;
+	margin-top: 200px;
+	
+}
 
 #billede_mig {
 	background-image: url(../portfolio/image/profilmig.jpg);
@@ -416,26 +422,84 @@ a {
 .php {width: 30%; background-color: #CDBDB1;}
 
 /*------------------------------------------------------- kompetencer SLUT ------------------------------------------*/
-/*------------------------------------------------------- Om Mig SLUT ------------------------------------------*/
+/*------------------------------------------------------- profil SLUT ------------------------------------------*/
 
 
+/*------------------------------------------------------- Læringsproces ------------------------------------------*/
+
+/*--lånt fra https://code.tutsplus.com/tutorials/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5--net-13934------*/
+.boxx{
+  	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.box_li {
+  	font-size:100%;
+  	font-weight:normal;
+	list-style:none;
+	text-align: center;
+}
+
+.box_ul {
+  	overflow:hidden;
+  	padding:3em;
+}
+
+.box_ul  li a{
+	text-decoration:none;
+  	background: #DBD2CB;
+  	color: #806E60;
+	display:block;
+  	height:10em;
+  	width:10em;
+  	padding:1em;
+  	-moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  	-moz-transition:-moz-transform .15s linear;
+  	-o-transition:-o-transform .15s linear;
+  	-webkit-transition:-webkit-transform .15s linear;
+}
+
+.box_ul  li {
+  	margin:1em;
+  	float:left;
+	font-size:120%;
+  	font-weight:bold;
+  	padding-bottom:10px;
+}
+
+.box_ul  p{
+  	font-size:180%;
+}
+
+.box_ul  li a:hover,ul li a:focus{
+  	box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  	transform: scale(1.25);
+  	position:relative;
+  
+}
+
+#overskrift_laeringsproces {
+	text-align: center;
+}
+/*------------------------------------------------------- Læringsproces SLUT ------------------------------------------*/
 
 /*-------------------------------------------------------Kontakt formular ------------------------------------------*/
+
 
 #kontakt_tekst{
 	padding-left: 400px;
 	margin-top: 300px;
 	
+	
 }
 
 #overskrift_kontakt {
-	
 	color: #806E60;
+	
 }
 
-#kontakt {
-	clear: both;
-}
 
 input[type=text], select, textarea {
     width: 60%;
@@ -461,7 +525,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #D0BAA8;
+    background-color: #DBD2CB;
 }
 
 .container_kontakt {
@@ -481,9 +545,7 @@ input[type=submit]:hover {
 
 #footer{
 	text-align: center;
-	height: 100px;
 	border-top: 1px solid #806E60;
-	margin-top: 50px;
 	clear: both;
 		
 }
@@ -492,7 +554,6 @@ input[type=submit]:hover {
 	margin-top: 30px;
 }
 /*------------------------------------------------------- Footer slut ------------------------------------------*/
-
 
 
 
