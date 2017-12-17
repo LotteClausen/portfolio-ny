@@ -4,7 +4,8 @@
 /*------------------------------------------- Elementer som skal gøre det samme  -------------------------------------*/
 
 body {
-	font-family: 'verdana', sans-serif;
+	font-family: Alegreya Sans, sans-serif;
+	margin: 0;
 }
 
 h1, h2, h3, a, p {
@@ -15,12 +16,12 @@ h1, h2, h3, a, p {
 
 p {
 	font-size: 16px;
-	color: #494949;
+	color: #333333;
 	
 }
 
 ul, li {
-	color: #494949;
+	color: #333333;
 }
 
 .overskifter {
@@ -34,20 +35,11 @@ ul, li {
 
 /*------------------------------------------------------- Logo ------------------------------------------*/
 #logo{
-width: 100px;
-float: left;
-margin:  0 90 100px;
-font-size: 9px;
-color: #D0BAA8;
+	text-align: center;
+	padding-top: 150px;
 }
 
-#logo:hover {
-opacity: 0.5;
-}
 
-#logo img {
-
-}
 
 /*------------------------------------------------------- Logo slut------------------------------------------*/
 
@@ -57,31 +49,31 @@ opacity: 0.5;
  
 #upper-nav {
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	position: fixed;
-	background: rgba(0, 0, 0, 0.1);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	
-   
+	background-color: #806E60;
+	border-bottom: 1px solid #333333;
+	z-index: 1;
+
+
 }
+
  
 #navi {
 	list-style: none;
 	font-size: 24px;
 	padding-right: 140px;
-	margin-top: 35px;
-	
+	margin-top: 20px;
+	text-align: center;
 	
 		
 }
  
 a {
-    color: #806E60;
+    color: white;
     list-style: none;
-    text-decoration: none;
-    margin-left: 25px;
-    margin-right: 10px;
 	float: right;
+    text-decoration: none;
 	padding-right: 20px;
 	
 	
@@ -105,13 +97,14 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 150px;
-	padding-top: 150px;
+	padding-top: 50px;
 	
 		
 }
 	
 .container_gallery {
-	width: 360px;	
+	width: 360px;
+	padding-left: 20px;
 
 	
 }
@@ -128,6 +121,7 @@ a {
 	margin-top: 30px;
 	
 	
+	
 }
 
 
@@ -138,6 +132,7 @@ a {
 	text-align: center;
 	color: #806E60;
 	padding: 15px;
+	
 }
 
 /*------------------------------------------------------- photoshop  ------------------------------------------*/
@@ -391,15 +386,24 @@ a {
 /*-------------------------------------------------------  Profil  ------------------------------------------*/
 
 
+#container_bigboxs {
+	background-color: #F6F5F4;
+	margin-bottom: 200px;
+	height: 940%;
+	margin-top: 200px;
+	border-top: double #806E60;
+	border-bottom: double #806E60;
+}
+
 #billede_mig {
-	background-image: url(../portfolio/image/profilmig.jpg);
+	background-image: url(image/profilmig.png);
 	background-repeat: no-repeat;
 	background-size: 350px;
 	background-position: center;
 	padding-bottom: 600px;
-	
 	 
 }
+
 
 #overskrift_profil {
 	text-align: center;
@@ -410,33 +414,79 @@ a {
 	margin-left: 29%;
 	margin-right: 29%;
 	text-align: left;
+	margin-bottom: 100px;
 	
 	
 	
 }
 /*------------------------------------------------------- kompetencer ------------------------------------------*/
 
-/*--------Taget det fra hjemmesiden https://www.w3schools.com/howto/howto_css_skill_bar.asp -----------*/
-
-
 #overskrift_kompetencer {
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 
+}
+
+#kompetencer_boxs {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 350px;
+	
+		
+}
+	
+.container_icons{
+	width: 360px;	
+	margin: -27px;
+
+	
+}
+
+
+.container_icons img {
+    width: 40%;
+	
+	
+	
+}
+
+
+
+/*------------ Teksten under billederne  -------------*/
+
+.text_icons {
+	color: #806E60;
+	font-size: 25px;
+	padding-left: 15px;
+	
+	
+}
+
+
+/*---------- skills --------------*/
+/*--------Taget det fra hjemmesiden https://www.w3schools.com/howto/howto_css_skill_bar.asp -----------*/
+
+#Kompetencer_tekst{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 
 #kompetencer {
 	box-sizing: border-box;
 	padding-left: 400px;
-	margin-bottom: 200px;
+	margin-bottom: 150px;
+	
+	
 }
 
 .container_kompetencer {
-  	width: 60%;
+  	width: 55%;
 	border: 1px solid #CDBDB1;
-	border-radius: 4px;
+	border-radius: 7px;
 	box-shadow: 2px 2px 5px #888;
+	background-color: white;
 	
 }
 
@@ -444,17 +494,17 @@ a {
   	text-align: right;
   	padding-right: 20px;
   	line-height: 30px;
-  	color: #806E60;
-	border-radius: 2px;
+  	color: #333333;
+	border-radius: 6px;
 	box-shadow: 1px 1px 1px #888;
 	
 }
 
-.html {width: 55%; background-color: #CDBDB1;}
-.css {width: 53%; background-color: #CDBDB1;}
-.design {width: 50%; background-color: #CDBDB1;}
-.illu {width: 40%; background-color: #CDBDB1;}
-.php {width: 30%; background-color: #CDBDB1;}
+.html {width: 45%; background-color: #BCB5B0;}
+.css {width: 45%; background-color: #BCB5B0;}
+.design {width: 35%; background-color: #BCB5B0;}
+.illu {width: 40%; background-color: #BCB5B0;}
+.php {width: 30%; background-color: #BCB5B0;}
 
 /*------------------------------------------------------- kompetencer SLUT ------------------------------------------*/
 /*------------------------------------------------------- profil SLUT ------------------------------------------*/
@@ -481,8 +531,8 @@ a {
 
 .box_ul  li a{
 	text-decoration:none;
-  	background: #DBD2CB;
-  	color: #806E60;
+  	background-color: #E4E4E4;
+	border: 1px solid #CFCDCD;
 	display:block;
   	height:10em;
   	width:10em;
@@ -517,6 +567,9 @@ a {
 
 #overskrift_laeringsproces {
 	text-align: center;
+	padding-top: 200px;
+	
+	
 	
 }
 
@@ -525,12 +578,13 @@ a {
 /*-------------------------------------------------------Kontakt formular ------------------------------------------*/
 
 #kontakt {
-	margin-top: -200px;
+	margin-top: 20px;
+	padding-top: 1px;
+	
 }
 
 #kontakt_tekst{
-	padding-left: 400px;
-	margin-top: 300px;
+	text-align: center;
 	
 	
 }
@@ -598,5 +652,74 @@ input[type=submit]:hover {
 
 
 
+/*------------------------------------------------------- Responsiv ------------------------------------------*/
 
 
+
+
+
+
+
+@media screen and (max-width : 480px ){
+
+/*-------------------Menu ------------------*/
+#upper-nav {
+	
+	height: 100px;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+	
+   
+}
+ 
+#navi {
+	list-style: none;
+	font-size: 24px;
+	padding-right: 90px;
+	margin-top: 35px;
+	
+	
+		
+}
+ 
+a {
+    color: #806E60;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 10px;
+	float: right;
+	padding-right: 20px;
+	
+	
+}
+
+	
+	
+	
+#portfolio_gallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 35px;
+	
+	
+		
+}
+	
+.container_gallery {
+	width: 360px;	
+
+	
+}
+
+
+.container_gallery img {
+    width: 100%;
+	height: auto;
+	margin-top: 30px;
+	
+	
+}
+}
