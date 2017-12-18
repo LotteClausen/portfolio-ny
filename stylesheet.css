@@ -35,8 +35,15 @@ ul, li {
 
 /*------------------------------------------------------- Logo ------------------------------------------*/
 #logo {
+	background-image: url(image/logo.svg);
+	background-repeat: no-repeat;
+	height: 100px;
 	float: left;
-	margin-top: -20px;
+	padding-left: 180px;
+	margin-top: -35px;
+	
+	
+	
 	
 
 }
@@ -45,11 +52,17 @@ ul, li {
 /*------------------------------------------------------- Logo slut------------------------------------------*/
 
 #navn{
-	text-align: center;
-	padding-top: 150px;
-	
+	background-image: url(image/navn.svg);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	padding-bottom: 200px;
+	margin-top: 150px;
+	margin-left: 400px;
 		
 }
+
+
+
 
 
 /*------------------------------------------------------- Navigation ------------------------------------------*/
@@ -82,7 +95,7 @@ ul, li {
 }
  
 a {
-   color: white;
+    color: white;
     list-style: none;
 	float: right;
     text-decoration: none;
@@ -152,7 +165,7 @@ a {
 
 
 #tekst_photoshop {
-	padding-top: 246px;
+	padding-top: 210px;
 	width: 400px;
 	margin-right: 131px;
 	display: block;
@@ -167,7 +180,7 @@ a {
 	margin-left: 60px;
     width: 340px;
 	float: left;
-	margin-top: 277px;
+	margin-top: 240px;
 }
 	
 
@@ -192,16 +205,21 @@ a {
 /*------------ på næste side  = efter man har klikket -------------*/
 
 #app_tekst {
-	padding-top: 246px;
+	padding-top: 210px;
 	width: 400px;
-	margin-right: 131px;
+	margin-right: 150px;
 	display: block;
 	float: right;
 }
 
 #app_tekst a{
 	float: none;
+	color: #806E60;
 	
+}
+
+#redesign_link {
+	margin-top: -30px;
 }
 
 
@@ -210,11 +228,11 @@ a {
 	background-size: 90%;
 	background-repeat: no-repeat;
 	padding: 180px;
-	margin-left: 60px;
+	margin-left: 100px;
     width: 240px;
 	float: left;
 	margin-bottom: 200px;
-	margin-top: 277px;
+	margin-top: 240px;
 	
 }
 
@@ -223,7 +241,7 @@ a {
 /*--------------- Redesign af app ----------------*/
 
 #app_redesign_teskt {
-	padding-top: 246px;
+	padding-top: 210px;
 	width: 400px;
 	margin-right: 131px;
 	display: block;
@@ -232,6 +250,8 @@ a {
 
 #app_redesign_teskt a {
 	float: none;
+	color: #806E60;
+	
 	
 }
 
@@ -243,7 +263,7 @@ a {
 	margin-left: 90px;
     width: 240px;
 	float: left;
-	margin-top: 277px;
+	margin-top: 240px;
 	
 
 }
@@ -273,7 +293,7 @@ a {
 /*------------ på næste side  = efter man har klikket -------------*/
 
 #sweetbot_tekst {
-	padding-top: 246px;
+	padding-top: 210px;
 	width: 400px;
 	float: right;
 	margin-right: 131px;
@@ -283,6 +303,7 @@ a {
 
 #sweetbot_tekst a {
 	float: none;
+	color: #806E60;
 	
 }
 
@@ -294,7 +315,7 @@ a {
 	margin-left: 60px;
     width: 340px;
 	float: left;
-	margin-top: 277px;
+	margin-top: 240px;
 
 }
 	
@@ -327,15 +348,22 @@ a {
 
 
 #droemme_tekst {
-	padding-top: 246px;
+	padding-top: 210px;
 	width: 400px;
 	margin-right: 131px;
 	display: block;
 	float: right;
 }
 
-#app_tekst a{
+
+#droemme_tekst p, ul, li {
+color: #333333;
+
+	
+}
+#droemme_tekst a{
 	float: none;
+	color: #806E60;
 	
 }
 
@@ -349,7 +377,7 @@ a {
     width: 240px;
 	float: left;
 	margin-bottom: 900px;
-	margin-top: 277px;
+	margin-top: 240px;
 	height: 300px;
 	
 }
@@ -361,7 +389,7 @@ a {
 /*------------------------------------------------------- Byg din Portfolio  ------------------------------------------*/
 
 #byg_portfolio_tekst {
-	padding-top: 246px;
+	padding-top: 210px;
 	width: 400px;
 	float: right;
 	margin-right: 131px;
@@ -370,6 +398,7 @@ a {
 
 #byg_portfolio_tekst a {
 	float: none;
+	color: #806E60;
 	
 }
 
@@ -380,7 +409,7 @@ a {
 	margin-left: 90px;
     width: auto;
 	float: left;
-	margin-top: 277px;
+	margin-top: 240px;
 	
 }
 
@@ -727,71 +756,376 @@ input[type=submit]:hover {
 /*------------------------------------------------------- Responsiv ------------------------------------------*/
 
 
+@media screen and (max-width : 480px ){/*------Mobil --------------*/
 
-
-
-
-
-@media screen and (max-width : 480px ){
-
-/*-------------------Menu ------------------*/
-#upper-nav {
+#logo {
+	clear: both;
+	height: 40px;
+	padding-right:  150px;
+	margin-bottom: 15px;
 	
-	height: 100px;
-	position: fixed;
-	background: rgba(0, 0, 0, 0.1);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	z-index: 1;
-	
-   
 }
+
  
 #navi {
-	list-style: none;
-	font-size: 24px;
-	padding-right: 90px;
-	margin-top: 35px;
-	
-	
-		
-}
- 
-a {
-    color: #806E60;
-    list-style: none;
-    text-decoration: none;
-    margin-left: 25px;
-    margin-right: 10px;
 	float: right;
-	padding-right: 20px;
-	
+	margin-top: 40px;
+	padding-right: 40px;
 	
 }
 
+#navi li {
+	font-size: 17px;
+	}
+
 	
+#navn{
+	background-size: 110%;
+	margin-left: 28px;
+		
+}	
 	
-	
+
 #portfolio_gallery {
-	display: flex;
-	flex-wrap: wrap;
-	padding-left: 35px;
-	
+	padding-left: 47px;
+	margin-top: -130px;
 	
 		
 }
 	
 .container_gallery {
-	width: 360px;	
+	width: 280px;
+	padding-left: 15px;
+	
 
 	
 }
-
 
 .container_gallery img {
     width: 100%;
-	height: auto;
-	margin-top: 30px;
+	margin-top: 20px;
 	
 	
 }
+/*------------  Menuen slut  --------------*/
+/*------------  Profil  --------------*/
+	
+
+#billede_mig {
+	background-size: 250px;
+	margin-top: -80px;
+	padding-bottom: 500px;
+	 
 }
+
+#om_mig_tekst {
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+	
+/*------------  Profil slut  --------------*/
+/*------------ Kompetencer -----------*/
+
+
+#kompetencer_boxs {
+	padding-left: 20px;
+	margin-top: -50px;
+	
+		
+}
+	
+.container_icons{
+	width: 300px;	
+	margin: 10px;
+
+	
+}
+
+
+.container_icons img {
+    width: 40%;
+	padding-left: 100px;
+			
+}
+
+
+.text_icons {
+	font-size: 16px;
+	padding-left: 30px;
+	text-align: center;
+		
+}
+
+
+/*---------- skills --------------*/
+
+#Kompetencer_tekst{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+
+#kompetencer {
+	padding-left: 40px;
+	
+	
+	
+}
+
+.container_kompetencer {
+  	width: 90%;
+	
+}
+
+.skills {
+	font-size: 11px;
+  	line-height: 20px;
+ 
+	
+	
+}
+/*------------ Kompetencer slut -----------*/	
+/*-------- Læringsproces og brugertest --------------*/
+
+
+
+#container_lb {
+	padding-left: 60px;		
+}
+
+.lb img {
+	margin-top: -60px;
+	
+	
+}
+
+#brugertest_text {
+	padding-right: 50px;
+	margin-top: -90px;
+	
+}
+
+#brugertest_icon {
+	padding-right: 20px;
+	}
+	
+/*------ Læringsproces og brugertest slut --------------*/	
+/*----------------kontakt ----------------*/	
+		
+#kontakt {
+	margin-top: 40px;
+	padding-top: 80px;
+	
+}
+
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 10px;
+
+	
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+
+}
+
+.container_kontakt {
+    padding-left: 50px;
+	
+	
+}
+/*----------------kontakt SLut + forsiden slut ----------------*/
+	
+/*----------------projekterne ----------------*/	
+/*------------- photoshop  ------------------*/
+
+
+
+#tekst_photoshop  {
+	padding-top: 140px;
+	width: 350px;
+	margin-right: 15px;
+	font-size: 14px;
+	
+}
+
+#tekst_photoshop p, ul, li {
+		font-size: 12px;
+	}	
+	
+#billede_photoshop1 {
+	background-size: 65%;
+	margin-left: 17px;
+    width: 200px;
+	margin-top: 50px;
+}
+	
+
+
+#billede_photoshop2 {
+	background-size: 65%;
+	margin-left: 17px;
+    width: 200px;
+	margin-top: -90px;;
+}	
+	
+/*-------- Byg en app --------------*/
+
+#app_tekst {
+	padding-top: 140px;
+	width: 350px;
+	margin-right: 15px;
+	font-size: 14px;
+}
+	
+#app_tekst p {
+		font-size: 13px;
+	}
+
+
+
+#app_mobil {
+	background-size: 60%;
+	margin-left: 25px;
+    width: 200px;
+	margin-top: 20px;
+	
+}
+
+
+
+/*--------------- Redesign af app ----------------*/
+
+#app_redesign_teskt {
+	padding-top: 140px;
+	width: 350px;
+	margin-right: 15px;
+	font-size: 14px;
+}
+
+#app_redesign_teskt p, li, ul {
+		font-size: 15px;
+	}
+
+#redesign_begge_mobile {
+	background-size: 60%;
+	margin-left: 25px;
+    width: 200px;
+	margin-top: 20px;
+	
+
+}
+
+#redesign_app_mobile {
+	background-size: 51.8%;
+	margin-left: 25px;
+    width: 200px;
+	margin-top: -120px;
+	
+}
+
+
+	
+
+
+/*--------- Byg en app SLUT  --------------*/
+/*----------Sweetbot ------------------*/
+
+#sweetbot_tekst {
+	padding-top: 140px;
+	width: 350px;
+	margin-right: 15px;
+	font-size: 13px;
+	
+}
+
+#sweetbot_tekst p, ul, li {
+	font-size: 13px;
+	
+}
+
+#sweetbot_billede {
+	background-size: 60%;
+	margin-left: 25px;
+    width: 200px;
+	margin-top: 20px;
+
+}
+	
+
+#hotbot_billede {
+	background-size: 60%;
+	margin-left: 25px;
+    width: 200px;
+	margin-top: -130px;
+}
+
+
+/*-------Sweetbot SLUT ----------*/
+
+
+/*----- Drømme portfolio  ------*/
+
+
+#droemme_tekst {
+	padding-top: 140px;
+	width: 350px;
+	margin-right: 15px;
+	font-size: 14px;
+}
+
+#droemme_tekst p, li, ul{
+	font-size: 14px;
+	
+}
+
+
+#droemme_billede {
+	background-size: 60%;
+	margin-left: 25px;
+    width: 200px;
+	margin-top: 10px;
+
+	
+}
+    
+   
+/*---- Drømme portfolio SLUT  ----------*/
+
+
+/*--------Byg din Portfolio  ---------*/
+
+#byg_portfolio_tekst {
+	padding-top: 140px;
+	width: 350px;
+	margin-right: 15px;
+	font-size: 14px;
+}
+
+#byg_portfolio_tekst p {
+	font-size: 14px;
+}
+
+#byg_portfolio_billlede {
+	background-size: 45%;
+	margin-left: 20px;
+    width: 200px;
+	margin-top: -100px;
+
+	
+}
+		
+}
+
+
+@media screen and (max-width : px ){/*---- tablet ----------*/ 
+	
+}
+
+	
+	
+	
+	
