@@ -85,7 +85,7 @@ ul, li {
  
 #navi {
 	list-style: none;
-	font-size: 24px;
+	font-size: 20px;
 	padding-right: 140px;
 	margin-top: 30px;
 	text-align: center;
@@ -210,6 +210,9 @@ a {
 	margin-right: 150px;
 	display: block;
 	float: right;
+	
+	
+	
 }
 
 #app_tekst a{
@@ -218,9 +221,6 @@ a {
 	
 }
 
-#redesign_link {
-	margin-top: -30px;
-}
 
 
 #app_mobil {
@@ -235,6 +235,7 @@ a {
 	margin-top: 240px;
 	
 }
+
 
 
 
@@ -357,7 +358,7 @@ a {
 
 
 #droemme_tekst p, ul, li {
-color: #333333;
+	color: #333333;
 
 	
 }
@@ -428,7 +429,7 @@ color: #333333;
 
 
 #container_bigboxs {
-	background-color: #F6F5F4;
+	background-color: #E8E8E8;
 	height: 940%;
 	margin-top: 200px;
 	border-top: double #806E60;
@@ -470,14 +471,14 @@ color: #333333;
 #kompetencer_boxs {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 350px;
+	padding-left: 314px;
 	
 		
 }
 	
 .container_icons{
 	width: 360px;	
-	margin: -27px;
+	margin: -20px;
 
 	
 }
@@ -485,6 +486,7 @@ color: #333333;
 
 .container_icons img {
     width: 40%;
+	padding: -100px;
 	
 	
 	
@@ -515,7 +517,7 @@ color: #333333;
 
 #kompetencer {
 	box-sizing: border-box;
-	padding-left: 400px;
+	padding-left: 450px;
 	margin-bottom: 150px;
 	
 	
@@ -557,8 +559,8 @@ color: #333333;
 
 
 #bigboxs_lb {
-	background-color: #D3DBDE;
-	border-bottom: double #806E60;
+	
+	
 		
 }
 
@@ -632,7 +634,7 @@ color: #333333;
 
 .box_ul  li a{
 	text-decoration:none;
-  	background-color: #E4E4E4;
+  	background-color: #D3DBDE;
 	border: 1px solid #CFCDCD;
 	display:block;
   	height:10em;
@@ -648,7 +650,7 @@ color: #333333;
 }
 
 .box_ul  li {
-  	margin:1em;
+  	margin:2em;
   	float:left;
 	font-size:120%;
   	font-weight:bold;
@@ -681,6 +683,8 @@ color: #333333;
 #kontakt {
 	margin-top: 200px;
 	padding-top: 1px;
+	background-color: #E8E8E8; 
+	border-top: double #806E60;
 	
 }
 
@@ -1121,9 +1125,12 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width : px ){/*---- tablet ----------*/ 
+@media screen and (max-width : 1024px ){/*---- tablet ----------*/ 
 	
 }
+
+
+
 
 	
 	
