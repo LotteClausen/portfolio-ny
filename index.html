@@ -4,42 +4,42 @@
 <meta charset="UTF-8">
 <title>Portfolio</title>
 <link rel="stylesheet" href="stylesheet.css">
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript" src="jquery.scrollTo.js"></script>
+	
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">	
 	
-	
-<script type="text/javascript">
-	
-$(document).ready(function () {
 
-var elem   = $('#upper-nav');  
-    
-var bottom = $(elem).position().top+$(elem).outerHeight(true)
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > bottom) {
-            $('#scrollup').fadeIn();
-        } else {
-            $('#scrollup').fadeOut();
-        }
-    });
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-    $('#scrollup').click(function () {
-        $("html, body").animate({ scrollTop: 0 }, 500);
-        return false;
-    });
-	
-	
-$("#navi a").click(function(e){
-			e.preventDefault();
-			$(window).scrollTo(this.hash,1000);
-			
-		});
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 });
 </script>
+	
+
 </head>
 	
 	
@@ -49,24 +49,40 @@ $("#navi a").click(function(e){
 	
 <!-- ----------------------------------------------------- Menuen - navigation  ------------------------------------>	
 	
-<header>
+
+    <header>
 		
-	<div id="upper-nav">
-			
-		<nav id="navi">
-			
-			<div id="logo"> 
-				<a href="index.html">
-					
-				</a>
+        <div id="upper-nav">
+						<a href="index.html"><div id="logo"> 	
 			</div>
+				</a>
 			
-				<li><a href="#kontakt">KONTAKT</a></li>
-				<li><a href="#profil">PROFIL</a></li>
-				<li><a href="#portfolio">PORTFOLIO</a></li>
-			</nav>
-		</div>
-</header>
+            <nav id="navi">
+			
+                <ul>
+					
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+					<li><a href="#profil">PROFIL</a></li>
+                    <li class="dropdown">
+
+						<a href="javascript:void(0)" class="dropbtn" >MULTIMEDIEDESIGNER &darr; </a>
+                        <div class="dropdown-content">
+                            <a href="learnproces.html">Læring</a>
+                            <a href="brugertest.html">Brugertest</a>
+
+							
+							
+							
+							
+                        </div>
+                    </li>
+                    <li><a href="#kontakt">KONTAKT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+	
 	
 	
 	
@@ -85,10 +101,6 @@ $("#navi a").click(function(e){
 					
 <div id="portfolio_gallery">
 	
-<div class="container_gallery">
-	<a href="photoshop.html"><img src="image/brofærdig.jpg" alt="HTML tutorial"></a>
-	<div class="tekst_under">Photoshop</div>
-</div>
 			
 <div class="container_gallery">
 	<a href="app.html"><img src="image/appskærm.jpg" alt="HTML tutorial"></a>
@@ -96,7 +108,7 @@ $("#navi a").click(function(e){
 </div>
 		
 <div  class="container_gallery">
-	<a href="sweetbot.html"><img src="image/sweetbot_skærm.jpg" alt="HTML tutorial"></a>
+	<a href="sweetbot.html"><img src="image/sweetbot1.jpg" alt="HTML tutorial"></a>
 	<div class="tekst_under">Sweetboot</div>
 </div>
 
@@ -112,8 +124,13 @@ $("#navi a").click(function(e){
 </div>
 	
 <div class="container_gallery">
-	<a href="redesign_app.html"><img src="image/app_begge_redesign.jpg" alt="HTML tutorial"></a>
+	<a href="redesign_app.html"><img src="image/app_begge2.jpg" alt="HTML tutorial"></a>
 	<div class="tekst_under">Redesign af vejr app</div>
+</div>
+	
+<div class="container_gallery">
+	<a href="redesign_sweetbot.html"><img src="image/Sweetbot_redesign1.jpg" alt="HTML tutorial"></a>
+	<div class="tekst_under">Redesign af Sweetbot</div>
 </div>
 
 	</div>	
@@ -147,7 +164,7 @@ I min fritid har glæden for design og branding har altid interesseret mig. Bege
 		
 <!--------Taget det fra hjemmesiden https://www.w3schools.com/howto/howto_css_skill_bar.asp ----------->	
 
-<div class="overskifter" id="overskrift_kompetencer"><h2></h2></div>	
+
 	
 <div id="kompetencer_boxs">
 	
@@ -220,45 +237,10 @@ I min fritid har glæden for design og branding har altid interesseret mig. Bege
 
 </div>		
 
-		
-<!-- ----------------------------------------------- Læringsproces og brugertest ------------------------------------------>	
-
-<div id="bigboxs_lb">
-	
-<div id="container_lb">
-	
-<div class="lb"  id="learn_icon">
-		<div class="overskifter" id="lern_text"><h1>Læringsproces</h1>
-			<a href="learnproces.html" target="_blank"><p> Tryk for at læse mere om min læring-/udviklingsproces<br>
-			 gennem mine flow forløb.  </p> </a> 
-		</div>	
-			<a href="learnproces.html"><img src="image/lernicon.svg" alt="HTML tutorial" style="height: 300px;"></a> 
-		</div>	
-	
-			
-<div class="container_lb" id="brugertest_icon">
-		<div class="overskifter" id="brugertest_text"><h1>Brugertest</h1>
-			<a href="learnproces.html" target="_blank"><p> Tryk for at se brugertest for min portfolio </p> </a> 
-		</div>	
-
-			<a href=""><img src="image/brugertest.svg" alt="HTML tutorial" style="height: 300px;"></a> 
-	
-		</div>
-	</div>
-	
-</div>	
-
-	
-
-	
-	
-
-	
 	
 
 
-			
-	
+
 	
 	
 <!-- ----------------------------------------------------- Kontakt ------------------------------------------>	
@@ -305,6 +287,10 @@ I min fritid har glæden for design og branding har altid interesseret mig. Bege
 	<p>&copy; Copyright 2017. Lotteclausen.dk  |  All Rights Reserved </p>
 </footer>
 		
+	
+
+	
+	
 </body>
 </html>
 	

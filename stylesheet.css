@@ -37,15 +37,11 @@ ul, li {
 #logo {
 	background-image: url(image/logo.svg);
 	background-repeat: no-repeat;
-	height: 100px;
+	height: 90%;
 	float: left;
-	padding-left: 180px;
-	margin-top: -35px;
+	padding-left: 7.6%;
+	margin-top: 9px;
 	
-	
-	
-	
-
 }
 
 
@@ -62,15 +58,13 @@ ul, li {
 }
 
 
+  /*------------------------------------------------------- Navigation ------------------------------------------*/
 
+  /*-----------Taget fra https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar-----------------*/
 
-
-/*------------------------------------------------------- Navigation ------------------------------------------*/
-
- 
-#upper-nav {
+  #upper-nav {
 	width: 100%;
-	height: 90px;
+	height: 10%;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -85,26 +79,72 @@ ul, li {
  
 #navi {
 	list-style: none;
-	font-size: 20px;
-	padding-right: 140px;
+	font-size: 17px;
+	padding-right: 105px;
 	margin-top: 30px;
 	text-align: center;
+	float: right;
 	
 	
 		
 }
- 
-a {
-    color: white;
-    list-style: none;
-	float: right;
-    text-decoration: none;
-	padding-right: 20px;
-	
-	
-}
- 
- 
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+			
+        }
+
+        li {
+            float: left;
+        }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+				
+            }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                    color: black;
+                }
+
+            li.dropdown {
+                display: inline-block;
+				
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #FFFFFF;
+            min-width: 250px;
+            z-index: 1;
+			border: double #806E60;;
+			
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    color: #806E60;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+			
+        }
  /*------------------------------------------------------- Navigation slut------------------------------------------*/
 /*------------------------------------------------------- Forside ------------------------------------------*/
 
@@ -121,15 +161,17 @@ a {
 #portfolio_gallery {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 150px;
+	padding-left: 3.2%;
 	padding-top: 50px;
-	
+	margin-right: 5%;
 		
 }
 	
 .container_gallery {
-	width: 360px;
-	padding-left: 20px;
+	width: 30%;
+	padding-left: 3%;
+	margin-top: 10px;
+	
 
 	
 }
@@ -137,13 +179,17 @@ a {
 .container_gallery:hover {
 	opacity: 0.5;
 	border: 1px solid #806E60;
+	
     
 }
 
 .container_gallery img {
-    width: 100%;
+    width: 90%;
 	height: auto;
-	margin-top: 30px;
+	margin-top: 10%;
+	
+	
+
 	
 	
 	
@@ -257,7 +303,7 @@ a {
 }
 
 #redesign_begge_mobile {
-	background-image: url(image/app_begge.svg);
+	background-image: url(image/redesignapp.svg);
 	background-size: 90%;
 	background-repeat: no-repeat;
 	padding: 180px;
@@ -270,8 +316,8 @@ a {
 }
 
 #redesign_app_mobile {
-	background-image: url(image/redesignapp.svg);
-	background-size: 81%;
+	background-image: url(image/app_begge2.jpg);
+	background-size: 78%;
 	background-repeat: no-repeat;
 	padding: 200px;;
     width: 220px;
@@ -334,9 +380,48 @@ a {
 	margin-bottom: 200px;
 }
 
+/*--------------------------Redesign af sweetbot ----------*/
 
+#redesignsweetbot_tekst {
+	padding-top: 210px;
+	width: 400px;
+	float: right;
+	margin-right: 131px;
+	display: block;
+	
+}
 
+#redesignsweetbot_tekst a {
+	float: none;
+	color: #806E60;
+	
+}
 
+#sweetbot_redesign_billede {
+	background-image: url(image/sweetbot_redesign.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 170px;
+	margin-left: 60px;
+    width: 340px;
+	float: left;
+	margin-top: 240px;
+
+}
+	
+
+#hotbot_redesign_billede {
+	background-image: url(image/hotbot_redesign.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 170px;
+	margin-left: 60px;
+    width: 340px;
+	height: 100px;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 200px;
+}
 
 
 /*------------------------------------------------------- Sweetbot SLUT ------------------------------------------*/
@@ -471,7 +556,7 @@ a {
 #kompetencer_boxs {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 314px;
+	padding-left: 20%;
 	
 		
 }
@@ -661,12 +746,15 @@ a {
   	font-size:180%;
 }
 
+/* Dum skygge på nav. også til flows.
+
 .box_ul  li a:hover,ul li a:focus{
   	box-shadow:3px 3px 3px rgba(0,0,0,.7);
   	transform: scale(1.25);
   	position:relative;
   
 }
+*/
 
 #overskrift_laeringsproces {
 	text-align: center;
@@ -683,8 +771,6 @@ a {
 #kontakt {
 	margin-top: 200px;
 	padding-top: 1px;
-	background-color: #E8E8E8; 
-	border-top: double #806E60;
 	
 }
 
@@ -763,24 +849,12 @@ input[type=submit]:hover {
 @media screen and (max-width : 480px ){/*------Mobil --------------*/
 
 #logo {
-	clear: both;
-	height: 40px;
+	
+	height: 20px;
 	padding-right:  150px;
 	margin-bottom: 15px;
 	
 }
-
- 
-#navi {
-	float: right;
-	margin-top: 40px;
-	padding-right: 40px;
-	
-}
-
-#navi li {
-	font-size: 17px;
-	}
 
 	
 #navn{
@@ -788,18 +862,55 @@ input[type=submit]:hover {
 	margin-left: 28px;
 		
 }	
+
+ 
+#navi {
+	
+	
+	margin-top: -20px;
+	margin-right: -90px;
 	
 
-#portfolio_gallery {
-	padding-left: 47px;
-	margin-top: -130px;
-	
 		
 }
+#navi li {
+	font-size: 8.7px;
 	
+	}
+
+      
+
+.dropdown-content {
+          
+   min-width: 150px;
+           
+			
+}
+
+          
+
+           
+
+
+
+#portfolio_gallery {
+	padding-left: 50px;;
+	margin-top: -130px;
+
+		
+		
+}
+
+	
+.container_gallery:hover {
+	opacity: 100;
+	border: 0px solid white;
+	
+    
+}
 .container_gallery {
 	width: 280px;
-	padding-left: 15px;
+
 	
 
 	
@@ -1125,9 +1236,6 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width : 1024px ){/*---- tablet ----------*/ 
-	
-}
 
 
 
