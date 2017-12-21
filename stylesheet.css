@@ -98,7 +98,7 @@ ul, li {
 	list-style: none;
 	font-size: 17px;
 	padding-right: 105px;
-	margin-top: 30px;
+	margin-top: 20px;
 	text-align: center;
 	float: right;
 	
@@ -217,7 +217,6 @@ ul, li {
 /*------------ Teksten under billederne  -------------*/
 
 .tekst_under {
-	text-align: center;
 	color: #806E60;
 	padding: 15px;
 	
@@ -635,7 +634,7 @@ ul, li {
 #kompetencer_boxs {
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 20%;
+	padding-left: 22%;
 	
 		
 }
@@ -706,11 +705,11 @@ ul, li {
 	
 }
 
-.html {width: 45%; background-color: #BCB5B0;}
-.css {width: 45%; background-color: #BCB5B0;}
-.design {width: 35%; background-color: #BCB5B0;}
-.illu {width: 40%; background-color: #BCB5B0;}
-.php {width: 30%; background-color: #BCB5B0;}
+.html {width: 45%; background-color: #DBD2CB;}
+.css {width: 45%; background-color: #DBD2CB;}
+.design {width: 35%; background-color: #DBD2CB;}
+.illu {width: 40%; background-color: #DBD2CB;}
+.php {width: 30%; background-color: #DBD2CB;}
 
 /*------------------------------------------------------- kompetencer SLUT ------------------------------------------*/
 
@@ -740,21 +739,7 @@ ul, li {
 /*--lånt fra https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed------*/
 
 
-.udvikling_heltext {
-	margin-left:25%;
-	padding:1px 16px;
-	height: 1000px;
-	
-	
-}
 
-
-
-#udviklingsproces_text {
-	padding-left: 20px;
-	color: white;
-	margin-top: 50%;
-}
 
 #ul_udvikling {
     list-style-type: none;
@@ -773,7 +758,7 @@ ul, li {
     color: white;
     padding: 10px 60px;
     text-decoration: none;
-	font-size: 140%;
+	font-size: 120%;
 	
 }
 
@@ -781,7 +766,7 @@ ul, li {
 .li_udvikling a:hover:not(.active) {
     background-color: #BDADA1;
     color: white;
-	font-size: 140%;
+	font-size: 120%;
 	width: 100%;
 	
 }
@@ -791,12 +776,58 @@ ul, li {
 #homeicon {
 	background-image: url(image/homeicon.svg);
 	background-repeat: no-repeat;
-	background-size: 70%;
-	margin-left: 16%;
-	height: 80%;
-	margin-top: 150%;
+	background-size: 50%;
+	margin-top: 100%;
+	padding-top: 100%;
+	
 	
 }
+
+
+.udvikling_heltext {
+	margin-left:25%;
+	padding: 27px 16px;
+	
+	
+	
+	
+}
+
+
+#udviklingsproces_text {
+	padding-left: 20px;
+	color: white;
+	margin-top: 50%;
+}
+/*------------------------------------------------------- flows ------------------------------------------*/
+
+/*-------------------Flow 1-------------*/
+
+.row {
+	
+}
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+		
+    }
+
+
+.billeder_f {
+    width: 50%;
+    float: left;
+    padding: 20px;
+	
+}
+
+.billeder_f img {
+        width: 70%;
+		
+    }
+
+
 
 /*------------------------------------------------------- Læringsproces SLUT ------------------------------------------*/
 
