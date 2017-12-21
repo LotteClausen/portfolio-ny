@@ -4,7 +4,7 @@
 /*------------------------------------------- Elementer som skal gøre det samme  -------------------------------------*/
 
 body {
-	font-family: "linea";
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 }
 
@@ -26,6 +26,26 @@ ul, li {
 
 .overskifter {
 	color: #806E60;
+}
+
+
+.tilbage{
+	display: inline-block;
+	float: left;
+	color: #806E60;
+	font-size: 14px;
+	line-height: 120%;
+	border: 1px solid #806E60;
+	padding: 10px 12px;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 13%;
+	margin-left: 4%;
+}
+.tilbage:hover{
+	color: black;
+	border: 1px solid black;
+	
 }
 
 
@@ -204,15 +224,12 @@ ul, li {
 }
 
 
-/*------------------------------------------------------- Byg en app ------------------------------------------*/
+/*------------------------------------------------------- Photoshop------------------------------------------*/
 
-
-/*------------ på næste side  = efter man har klikket -------------*/
-
-#app_tekst {
+#tekst_photoshop{
 	padding-top: 160px;
 	width: 400px;
-	margin-left: 90px;
+	margin-left: 60px;
 	display: block;
 	float: left;
 	
@@ -220,7 +237,7 @@ ul, li {
 	
 }
 
-#app_tekst a{
+#tekst_photoshop a{
 	float: none;
 	color: #806E60;
 	text-decoration: none;
@@ -229,12 +246,12 @@ ul, li {
 
 
 
-#app_mobil {
-	background-image: url(image/appskærm.jpg);
-	background-size: 90%;
+#billede_photoshop1 {
+	background-image: url(image/bro.jpg);
+	background-size: 81%;
 	background-repeat: no-repeat;
 	padding: 180px;
-	margin-right: 60px;
+	margin-right: -0.2px;
     width: 260px;
 	float: right;
 	margin-bottom: 200px;
@@ -242,156 +259,21 @@ ul, li {
 	
 }
 
-
-
-
-/*--------------- Redesign af app ----------------*/
-
-#app_redesign_teskt {
-	padding-top: 160px;
-	width: 400px;
-	margin-left: 90px;
-	display: block;
-	float: left;
-}
-
-#app_redesign_teskt a {
-	float: none;
-	color: #806E60;
-	text-decoration: none;
-	
-	
-}
-
-#redesign_app_mobile{
-	background-image: url(image/redesignapp.svg);
-	background-size: 90%;
+#billede_photoshop2 {
+	background-image: url(image/brofærdig.jpg);
+	background-size: 81%;
 	background-repeat: no-repeat;
 	padding: 180px;
-	margin-right: 60px;
+	margin-left: 20%;
     width: 260px;
 	float: right;
-	margin-top: 190px;
-	
-
-}
-
-
-#redesign_begge_mobile {
-	background-image: url(image/app_begge2.jpg);
-	background-size: 77%;
-	background-repeat: no-repeat;
-	padding: 190px;
-	margin-left: 15%;
-    width: 260px;
-	float: right;
-	margin-top: 70px;
-	margin-bottom: 20%;
-	
-}
-
-
-	
-
-
-/*------------------------------------------------------- Byg en app SLUT  ------------------------------------------*/
-/*------------------------------------------------------- Sweetbot ------------------------------------------*/
-
-
-
-/*------------ på næste side  = efter man har klikket -------------*/
-
-#sweetbot_tekst {
-	padding-top: 160px;
-	width: 400px;
-	margin-left: 90px;
-	display: block;
-	float: left;
-}
-
-#sweetbot_tekst p, ul, li {
-	color: #707070;
-
-	
-}
-
-#sweetbot_tekst a {
-	float: none;
-	color: #806E60;
-	text-decoration: none;
-	
-}
-
-#sweetbot_billede {
-	background-image: url(image/sweetbot.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding: 180px;
-	margin-right: 120px;
-    width: 260px;
-	float: right;
-	margin-top: 190px;
-
-}
-	
-
-#hotbot_billede {
-	background-image: url(image/hotbot.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding: 180px;
-	margin-right: 120px;
-    width: 260px;
-	float: right;
-	margin-top: 20px;
-	margin-bottom: 200px;
-}
-
-/*--------------------------Redesign af sweetbot ----------*/
-
-#redesignsweetbot_tekst {
-	padding-top: 160px;
-	width: 400px;
-	margin-left: 90px;
-	display: block;
-	float: left;
-}
-
-#redesignsweetbot_tekst a {
-	float: none;
-	color: #806E60;
-	text-decoration: none;
-	
-}
-
-#sweetbot_redesign_billede {
-	background-image: url(image/sweetbot_redesign.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding: 180px;
-	margin-right: 120px;
-    width: 260px;
-	float: right;
-	margin-top: 190px;
-
-}
-	
-
-#hotbot_redesign_billede {
-	background-image: url(image/hotbot_redesign.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding: 180px;
-	margin-right: 120px;
-    width: 260px;
-	float: right;
-	margin-top: 20px;
+	margin-top: -170px;
 	margin-bottom: 200px;
 }
 
 
+/*------------------------------------------------------- Photoshop slut ------------------------------------------*/
 
-/*------------------------------------------------------- Sweetbot SLUT ------------------------------------------*/
 
 
 /*------------------------------------------------------- Drømme portfolio  ------------------------------------------*/
@@ -403,7 +285,7 @@ ul, li {
 #droemme_tekst {
 	padding-top: 160px;
 	width: 400px;
-	margin-left: 90px;
+	margin-left: 60px;
 	display: block;
 	float: left;
 }
@@ -424,13 +306,13 @@ ul, li {
 
 #droemme_billede {
 	background-image: url(image/droemmeportfolio.png);
-	background-size: 100%;
+	background-size: 81%;
 	background-repeat: no-repeat;
 	padding: 180px;
-	margin-right: 120px;
-    width: 240px;
+	margin-right: -0.2px;
+    width: 260px;
 	float: right;
-	margin-bottom: 900px;
+	margin-bottom: 200px;
 	margin-top: 190px;
 	height: 300px;
 	
@@ -445,9 +327,10 @@ ul, li {
 #byg_portfolio_tekst {
 	padding-top: 160px;
 	width: 400px;
-	margin-left: 90px;
+	margin-left: 80px;
 	display: block;
 	float: left;
+	
 }
 
 #byg_portfolio_tekst a {
@@ -459,9 +342,10 @@ ul, li {
 
 #byg_portfolio_billlede {
 	background-image: url(image/bygportfoliopics.svg);
+	background-size: 85%;
 	background-repeat: no-repeat;
 	padding: 180px;
-	margin-right: 60px;
+	margin-right: 9px;
     width: 260px;
 	float: right;
 	margin-bottom: 200px;
@@ -476,10 +360,235 @@ ul, li {
 /*------------------------------------------------------- Byg din Portfolio SLUT  ------------------------------------------*/
 
 
+/*------------------------------------------------------- Byg en app ------------------------------------------*/
+
+
+/*------------ på næste side  = efter man har klikket -------------*/
+
+#app_tekst {
+	padding-top: 160px;
+	width: 400px;
+	margin-left: 80px;
+	display: block;
+	float: left;
+	
+	
+}
+
+#app_tekst a{
+	float: none;
+	color: #806E60;
+	text-decoration: none;
+	
+}
+
+
+
+#app_mobil {
+	background-image: url(image/appskærm.jpg);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-right: -0.2px;
+    width: 260px;
+	float: right;
+	margin-bottom: 200px;
+	margin-top: 190px;
+	
+}
+
+
+
+
+/*--------------- Redesign af app ----------------*/
+
+#app_redesign_teskt {
+	padding-top: 160px;
+	width: 400px;
+	margin-left: 80px;
+	display: block;
+	float: left;
+}
+
+#app_redesign_teskt a {
+	float: none;
+	color: #806E60;
+	text-decoration: none;
+	
+	
+}
+
+#redesign_app_mobile{
+	background-image: url(image/redesignapp.svg);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-right: -0.2px;
+    width: 260px;
+	float: right;
+	margin-bottom: 200px;
+	margin-top: 190px;
+	
+
+}
+
+
+#redesign_begge_mobile {
+	background-image: url(image/app_begge2.jpg);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-left: 20%;
+    width: 260px;
+	float: right;
+	margin-top: -170px;
+	margin-bottom: 200px;
+	
+}
+
+
+	
+
+
+/*------------------------------------------------------- Byg en app SLUT  ------------------------------------------*/
+
+
+/*------------------------------------------------------- Sweetbot ------------------------------------------*/
+
+
+
+/*------------ på næste side  = efter man har klikket -------------*/
+
+#sweetbot_tekst {
+	padding-top: 160px;
+	width: 400px;
+	margin-left: 80px;
+	display: block;
+	float: left;
+}
+
+#sweetbot_tekst p, ul, li {
+	color: #707070;
+
+	
+}
+
+#sweetbot_tekst a {
+	float: none;
+	color: #806E60;
+	text-decoration: none;
+	
+}
+
+#sweetbot_billede {
+	background-image: url(image/sweetbot.png);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-right: -0.2px;
+    width: 260px;
+	float: right;
+	margin-bottom: 200px;
+	margin-top: 190px;
+	
+
+}
+	
+
+#hotbot_billede {
+	background-image: url(image/hotbot.png);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-left: 20%;
+    width: 260px;
+	float: right;
+	margin-top: -250px;
+	margin-bottom: 200px;
+}
+
+/*--------------------------Redesign af sweetbot ----------*/
+
+#redesignsweetbot_tekst {
+	padding-top: 160px;
+	width: 400px;
+	margin-left: 80px;
+	display: block;
+	float: left;
+}
+
+#redesignsweetbot_tekst a {
+	float: none;
+	color: #806E60;
+	text-decoration: none;
+	
+}
+
+#sweetbot_redesign_billede {
+	background-image: url(image/sweetbot_redesign.png);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-right: -0.2px;
+    width: 260px;
+	float: right;
+	margin-bottom: 200px;
+	margin-top: 190px;
+
+}
+	
+
+#hotbot_redesign_billede {
+	background-image: url(image/hotbot_redesign.png);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-left: 20%;
+    width: 260px;
+	float: right;
+	margin-top: -250px;
+	margin-bottom: 200px;
+}
+
+
+
+
+/*------------------------------------------------------- Sweetbot SLUT ------------------------------------------*/
+/*------------------------------------------------------- Portfolio ------------------------------------------*/
+
+#portfolio_teskt {
+	padding-top: 160px;
+	width: 400px;
+	margin-left: 80px;
+	display: block;
+	float: left;
+}
+
+#portfolio_teskt a {
+	float: none;
+	color: #806E60;
+	text-decoration: none;
+	
+}
+
+#portfolio_billede {
+	background-image: url(image/portfolio.jpg);
+	background-size: 81%;
+	background-repeat: no-repeat;
+	padding: 180px;
+	margin-left: 20%;
+    width: 260px;
+	float: right;
+	margin-top: -250px;
+	margin-bottom: 200px;
+	
+}
+
+
+
+/*----------------------------------------------------- Portfolio SLut ---------------------------------------*/
 /*------------------------------------------------------- Gallery Portfolio SLUT ------------------------------------*/
 /*------------------------------------------------------- Portfolio SLUT ------------------------------------------*/
-
-
 /*-------------------------------------------------------  Profil  ------------------------------------------*/
 
 
@@ -610,42 +719,23 @@ ul, li {
 /*------------------------------------------------------- profil SLUT ------------------------------------------*/
 
 
-/*---------------------------------------------------------Brugertest-------------------------------------------------*/
+/*-------------------------------------Brugertest og mit forløb ------------------------------------------------*/
 
-#bigboxs_lb {
-	
-	
-		
-}
 
-#container_lb {
-	display: flex;
-	flex-wrap: wrap;
-	padding-left: 200px;
-	padding-top: 50px;
-	
-	
+#logo_udvikling {
+	background-image: url(image/logo.svg);
+	background-repeat: no-repeat;
+	height: 15%;
+	float: left;
+	padding-left: 80%;
+	margin-left: 8%;
 	
 }
 
-.lb img {
-    width: 100%;
-	height: auto;
-		
-}
 
 
-#brugertest_text {
-	text-align: center;
-	
-}
 
-#brugertest_text a{
-	float: none;
-	
-}
-
-/*---------------------------------------------------- Udviklingsproces --------------------------------------------------*/
+/*-----Udviklingsproces --------*/
 
 /*--lånt fra https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed------*/
 
@@ -653,40 +743,37 @@ ul, li {
 .udvikling_heltext {
 	margin-left:25%;
 	padding:1px 16px;
-	height:1000px;
+	height: 1000px;
 	
 	
 }
 
-#Billede_udvikling {
-	background-image: url(image/lernicon.svg);
-	background-repeat: no-repeat;
-	height: 30%;
-	margin-left: 26px;
-}
+
 
 #udviklingsproces_text {
-	text-align: center;
+	padding-left: 20px;
 	color: white;
+	margin-top: 50%;
 }
 
 #ul_udvikling {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 19%;
+    width: 20%;
     background-color: #806E60;
     position: fixed;
     height: 100%;
     overflow: auto;
+	box-shadow: 0 0 10px grey;
 }
 
 .li_udvikling a {
     display: block;
     color: white;
-    padding: 6px 90px;
+    padding: 10px 60px;
     text-decoration: none;
-	font-size: 170%;
+	font-size: 140%;
 	
 }
 
@@ -694,8 +781,21 @@ ul, li {
 .li_udvikling a:hover:not(.active) {
     background-color: #BDADA1;
     color: white;
-	font-size: 170%;
-	width: 30%;
+	font-size: 140%;
+	width: 100%;
+	
+}
+
+
+
+#homeicon {
+	background-image: url(image/homeicon.svg);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	margin-left: 16%;
+	height: 80%;
+	margin-top: 150%;
+	
 }
 
 /*------------------------------------------------------- Læringsproces SLUT ------------------------------------------*/
@@ -780,7 +880,7 @@ input[type=submit]:hover {
 /*------------------------------------------------------- Responsiv ------------------------------------------*/
 
 
-@media screen and (max-width : 480px ){/*------Mobil --------------*/
+@media screen and (max-width : 500px ){/*------Mobil --------------*/
 
 #logo {
 	
@@ -1153,17 +1253,24 @@ input[type=submit] {
 	
 /*------------- Udviklingsproces -----------*/
 
+#logo_udvikling {
+	height: 15%;
+	padding-left: 130%;
+	margin-left: -18%;
+	
+}
 
 .udvikling_heltext {
 	margin-left: 30%;
-	padding: 1px 16px;
+	padding: 1px 8px;
 	height: 1000px;
 	}	
 	
 	
 #udviklingsproces_text {
-	font-size: 40%;
-	margin-right: 90px;
+	padding-left: 1%;
+	font-size: 50%;
+	margin-top: 10%;
 	
 }
 	
@@ -1185,9 +1292,9 @@ input[type=submit] {
 .li_udvikling a {
     display: block;
     color: white;
-    padding: 20px 5px;
+    padding: 20px 3px;
     text-decoration: none;
-	font-size: 100%;
+	font-size: 80%;
 
 	
 }
@@ -1196,13 +1303,19 @@ input[type=submit] {
 .li_udvikling a:hover:not(.active) {
     background-color: #BDADA1;
     color: white;
-	font-size: 100%;
+	font-size: 80%;
 	width: 100%;
 		
 }	
 	
+#homeicon {
+	background-image: url(image/homeicon.svg);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	margin-left: 2%;
+	height: 80%;
+	margin-top: 600%;
 	
-		
 }
 
 
